@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Roboto:wght@300;400;600;900&display=swap');
+html {
+    height: 100%
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #070707;
+    margin: 0;
+    height: 100%;
+    line-height: 1.5em
+}
+
+a {
+    color: #09c;
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s
+}
+
+a:hover {
+    color: #069;
+    color: #09c;
+    text-decoration: none;
+    outline: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    font-family: Montserrat, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+p {
+    font-size: .875em;
+    margin: 0 0 10px;
+    font-weight: 300
+}
+
+p.lead {
+    font-size: 18px;
+    margin: 30px 0
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    -ms-interpolation-mode: bicubic
+}
+
+.main-content {
+    background-color: #fefefe;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-bottom: 2px solid #f5f5f5
+}
+
+.header .title {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.header h1 {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 12px 0 5px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #070707;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 1;
+    font-family: 'Cinzel', serif;
+}
+
+.header h1:after {
+    content: '';
+    width: 30%;
+    margin: 8px auto 12px;
+    background-color: rgba(32, 33, 36, .1);
+    height: 3px;
+    display: block
+}
+
+.header p {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    color: #777;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    z-index: 2
+}
+
+.page-block:first-child {
+    padding-top: 60px
+}
+
+.demo-variant {
+    background-color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 15px
+}
+
+.demo-variant .image-block {
+    position: relative;
+    border-bottom: 1px solid #eee
+}
+
+.demo-variant .image-block img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px
+}
+
+.demo-variant .title {
+    padding: 15px 20px
+}
+
+.demo-variant .title h4 {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+}
